@@ -18,7 +18,7 @@ for ch in sentences:
         word += ch
 
 if word != "":
-    print(word)        
+    print(word)
 
 
 # 2. Write a Python program to reverse a given string in two ways:
@@ -34,17 +34,17 @@ count=0
 for i in range(len(words)):
     if words[i] not in ['a','e','i','o','u',""]:
         count += 1
-print(count)    
+print(count)
 
 
-# 4.  Write a Python program to remove all spaces from a given string.
-def remove_space(text):
-    new_text = ""
-    for char in text:
-        if char != " ":
-            new_text = new_text + char
-    print(new_text)
-remove_space("Python is awesome")
+# # 4.  Write a Python program to remove all spaces from a given string.
+text = input("Enter the text:")
+new_text = ""
+for ch in text:
+    if ch != " ":
+        new_text = new_text + ch
+print(new_text)
+
 
 #5. Write a Python program that asks the user to enter a password and checks if it is strong.
 password = input('Enter your password:')
@@ -58,9 +58,5 @@ if len(password) >= 8:
         print('Password is not strong')
 else:
     print('Please enter at least 8 characters')
-            
-        
 
-        
-    
-             
+
