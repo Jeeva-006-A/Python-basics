@@ -40,3 +40,10 @@
 # else:
 #     print("Sum is odd")
 
+# arr=["water","star","orange","apple"]
+# for i in range(0,len(arr)):
+#       if arr[0] != "a" or arr[0] != "e" or arr[0] != "i" or arr[0] != "o" or arr[0] != "u"or arr[0] !="A" or arr[0] !="E" or arr[0] !="I" or arr[0] !="O" or arr[0] !="U" :
+#           print(arr)
+
+
+

@@ -38,24 +38,24 @@
 # name=['Nathiya',]
 
 
-# 1. There is an error while counting how many times a number appears in the list. Please identify and correct it.
-nums = [1, 2, 3, 2, 2, 4]
-target = 2
-count = 0
-for i in range(len(nums)):
-    if nums[i] == target:
-        count += 1
-print(count)
-# 2. There is an error while comparing two strings character by character. Please identify and correct it.
-s1 = "cat"
-s2 = "cat"
-same = True
-if s1 == s2:
-    same = True
-else:
-    same = False
-print("Same")
+# # 1. There is an error while counting how many times a number appears in the list. Please identify and correct it.
+# nums = [1, 2, 3, 2, 2, 4]
+# target = 2
+# count = 0
+# for i in range(len(nums)):
+#     if nums[i] == target:
+#         count += 1
+# print(count)
+# # 2. There is an error while comparing two strings character by character. Please identify and correct it.
+# s1 = "cat"
+# s2 = "cat"
+# same = True
+# if s1 == s2:
+#     same = True
 # else:
+#     same = False
+# print("Same")
+# # else:
 #     print("Different")
 # 3. There is an error while counting spaces in a given sentence. Please identify and correct it.
 # sentence = "Python is fun"
@@ -79,3 +79,15 @@ print("Same")
 #     if ch == " ":
 #         count = 0
 # print("Words:", count)
+
+
+n=[5,4,5,3,5,2,5,1]
+max_can=n[0]
+count=0
+for i in range(len(n)):
+    if n[i] > max_can:
+        max_can = n[i]
+for i in range(0,len(n)):
+    if n[i] == max_can:
+        count = count + 1
+print(count)
