@@ -8,12 +8,11 @@
 # K = 5
 # Output: Invalid Input
 
-
-nums = [10, 20, 30, 40, 50]
-K = 2
-for i in range(len(nums)):
-    if nums > k :
-        
+# nums = [10,20,30,40,50]
+# k=2
+# if k > len(nums):
+#     nums[:-k]
+#     print(nums)
 
 
 
@@ -25,22 +24,22 @@ for i in range(len(nums)):
 # data_y = [11, 22, 33, 44, 55]
 # Output: [1, 2, 3, 4, 5, 6, 7]
 
-data_x = [1, 2, 3, 4, 5, 6, 7]
-data_y = [11, 22, 33, 44, 55]
-count_x=0
-count_y=0
-for i in range(len(data_x)):
-    if i % 2 !=0:
-        count_x+=1
-for i in range(len(data_y)):
-    if i % 2 !=0:
-        count_y+=1
-if count_x > count_y:
-    print(data_x)        
-elif count_y > count_y:
-    print(count_y)
-else:
-    print("Both are Equal")
+# data_x = [1, 2, 3, 4, 5, 6, 7]
+# data_y = [11, 22, 33, 44, 55]
+# count_x=0
+# count_y=0
+# for i in range(len(data_x)):
+#     if i % 2 !=0:
+#         count_x+=1
+# for i in range(len(data_y)):
+#     if i % 2 !=0:
+#         count_y+=1
+# if count_x > count_y:
+#     print(data_x)        
+# elif count_y > count_y:
+#     print(count_y)
+# else:
+#     print("Both are Equal")
 
 
 #  3. Given an integer N and an array of N integers, write a program to print all the integers that are divisible by their immediate previous integer in the array.
@@ -54,47 +53,57 @@ else:
 # Input: [5, 7, 11, 13, 17]
 # Output: [].
 
-arr=[1, 2, 3, 6, 7]
-new_arr=[]
-for i in range(len(arr)):
-    if arr[i] % arr[i-1] == 0:
-        new_arr.append(arr[i])
-print(new_arr)
+# arr=[1, 2, 3, 6, 7]
+# new_arr=[]
+# for i in range(len(arr)):
+#     if arr[i] % arr[i-1] == 0:
+#         new_arr.append(arr[i])
+# print(new_arr)
 
-arr=[2, 4, 8, 16]
-new_arr=[]
-for i in range(len(arr)):
-    if arr[i] % arr[i-1] == 0:
-        new_arr.append(arr[i])
-print(new_arr)
-
-
-arr=[5, 7, 11, 13, 17]
-new_arr=[]
-for i in range(len(arr)):
-    if arr[i] % arr[i-1] == 0:
-        new_arr.append(arr[i])
-print(new_arr)
+# arr=[2, 4, 8, 16]
+# new_arr=[]
+# for i in range(len(arr)):
+#     if arr[i] % arr[i-1] == 0:
+#         new_arr.append(arr[i])
+# print(new_arr)
 
 
+# arr=[5, 7, 11, 13, 17]
+# new_arr=[]
+# for i in range(len(arr)):
+#     if arr[i] % arr[i-1] == 0:
+#         new_arr.append(arr[i])
+# print(new_arr)
 
 
 
+# - Given a string S, print 2 strings such that first string containing all characters in odd position(s) and other containing all characters in even position(s).
+# ```python
+# INPUT: S = "PYTHON"
+# OUTPUT: "PTO", "YHN"
+
+# s = "PYTHON"
+# odd_pos=""
+# even_pos="" 
+
+# for i in range(len(s)):
+#     if i % 2 !=0:
+#         odd_pos += s[i]
+#     elif i % 2==0:
+#         even_pos += s[i]
+# print(even_pos,odd_pos)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+# num = "TN10AB1234"
+# output=10
+# num ="KA03GH0569"
+# output=20
+num="MH02XY9876"
+# output =30
+res=0
+for i in range(len(num)-1,5,-1):
+    res+=int(num[i])
+print(res)
 
 
 

@@ -31,10 +31,21 @@
 #         print(names[i])
 
 
-num_list=[20,11,-7,-33,45,-16,-29,25,-3]
-count=0
+# num_list=[20,11,-7,-33,45,-16,-29,25,-3]
+# count=0
 
-for i in range(len(num_list)):
-    if num_list[i] < 0:
-        count=count+1
-print(count)
+# for i in range(len(num_list)):
+#     if num_list[i] < 0:
+#         count=count+1
+# print(count)
+'''
+count how many number in array greater than given value
+
+# n = 20
+# arr = [3,15,90,20,10,23]
+# count=0
+# for i in range(len(arr)):
+#     if arr[i] > n:
+#         count+=1
+# print(count)
+'''
